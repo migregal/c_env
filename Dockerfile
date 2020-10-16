@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Migral
+MAINTAINER Migregal
 
 RUN apk add --no-cache -q -f git cmake make g++ valgrind cppcheck bash
 
