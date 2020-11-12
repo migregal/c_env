@@ -11,7 +11,6 @@ RUN apk add --no-cache -q -f \
     cppcheck    \
     bash        \
     ncurses     \
-    qt5-qtbase
 
 RUN git clone -q                                \
     https://github.com/google/googletest.git    \
