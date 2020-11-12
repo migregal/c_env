@@ -5,6 +5,7 @@ LABEL author=Migregal
 RUN apk add --no-cache -q -f \
     git         \
     cmake       \
+    make        \
     g++         \
     valgrind    \
     cppcheck    \
