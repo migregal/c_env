@@ -10,7 +10,8 @@ RUN apk add --no-cache -q -f \
     valgrind    \
     cppcheck    \
     bash        \
-    ncurses
+    ncurses     \
+    qt5-qtbase
 
 RUN git clone -q                                \
     https://github.com/google/googletest.git    \
